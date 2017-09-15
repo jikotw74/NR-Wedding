@@ -5,6 +5,12 @@ Author URI: http://webthemez.com/
 
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:400,700,600);
 @import url(http://fonts.googleapis.com/css?family=Raleway:400,700);
+
+@font-face {
+  font-family: Italianno;
+  src: url(./Italianno-Regular.ttf) format('truetype');
+}
+
 * {
 	margin: 0;
 	padding: 0;
@@ -1066,6 +1072,10 @@ nav#filter li {
 }
 .my-words{
 	margin-top: 100px;
+}
+.my-words h3{
+	font-family: Italianno, sans-serif;	
+	font-size: 56px;
 }
 .my-name{
 	font-size: 1.2em;
